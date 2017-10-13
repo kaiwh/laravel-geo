@@ -19,7 +19,10 @@
         "laravel": {
             "providers": [
                 "Kaiwh\\Geo\\Providers\\GeoServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Geo": "Kaiwh\\Geo\\Facades\\GeoFacade"
+            }
         }
     }
 }
